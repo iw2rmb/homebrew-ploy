@@ -14,22 +14,22 @@ cask "ploy" do
   on_macos do
     on_intel do
       url "https://github.com/iw2rmb/ploy/releases/download/v#{version}/ploy_#{version}_darwin_amd64.tar.gz"
-      sha256 "d0daae7cc6531a272e94eed1d85cd3d4cbd11185a3104884ea37abc44c378148"
+      sha256 "58e053505238d9732006dd05ac4ecf166178b69530636fdcbe1ee62b3eeae3e9"
     end
     on_arm do
       url "https://github.com/iw2rmb/ploy/releases/download/v#{version}/ploy_#{version}_darwin_arm64.tar.gz"
-      sha256 "4b00352647fcc0160795f90a510ad8c9d1a868f3e27eb672ce751ffb0a6378e7"
+      sha256 "b88c855dba8d2a0b9fc19993d178b23d0cb902eb8851f75fe5176d046cf2b0dc"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/iw2rmb/ploy/releases/download/v#{version}/ploy_#{version}_linux_amd64.tar.gz"
-      sha256 "b308b1ea1ad373b0510466a1d38181c7b8808a28c0745a151f4d769c9b5b4094"
+      sha256 "b3c3f961c7118553fa51cf37809a7ead7c03e148d19bbd9ae567e1f01ea867ed"
     end
     on_arm do
       url "https://github.com/iw2rmb/ploy/releases/download/v#{version}/ploy_#{version}_linux_arm64.tar.gz"
-      sha256 "06149f91cf7af47a33a299104daebe3469b7dc9ec0cb0ad83a18cd55737ca2b6"
+      sha256 "e7bd7ca3dad451e6afc28089adc54953239dd1f4981ee2a3e48f18477944696c"
     end
   end
 
