@@ -3,7 +3,7 @@ cask "ploy" do
   name "ploy"
   desc "Ploy - Infrastructure orchestration and deployment platform"
   homepage "https://github.com/iw2rmb/ploy"
-  version "0.1.18-rc16"
+  version "0.1.18-rc17"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "ploy" do
   on_macos do
     on_intel do
       url "https://github.com/iw2rmb/ploy/releases/download/v#{version}/ploy_#{version}_darwin_amd64.tar.gz"
-      sha256 "e7a042b16a600218a7d11882d407dd90995687a9ad815b0a67a3039415d5f4b5"
+      sha256 "4d0132a427e575d83eaeb1ecb44725077774786eeefb74cb11f38cf8e85bb35e"
     end
     on_arm do
       url "https://github.com/iw2rmb/ploy/releases/download/v#{version}/ploy_#{version}_darwin_arm64.tar.gz"
-      sha256 "4459d851dc85f97dd706ab97543696438139ddfc8dfb1ba99cfefff735b30cbe"
+      sha256 "08904e73027aacf01a4a83dc4c8e2197ef4e86b9ece83edd2e6e874325d2cc26"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/iw2rmb/ploy/releases/download/v#{version}/ploy_#{version}_linux_amd64.tar.gz"
-      sha256 "1366c8121c1cd4c0846d1cac0d86ba56d33541cf7841e1eb66837bf41a54731d"
+      sha256 "a79cc994c61c2dfe7437af7cfb1ef75327c3f3496aa4072623a8cc9a47b5b264"
     end
     on_arm do
       url "https://github.com/iw2rmb/ploy/releases/download/v#{version}/ploy_#{version}_linux_arm64.tar.gz"
-      sha256 "93dc2753a49d70353ff451f7e61df87e644ce5997e1d51b52ede9ac083280ee0"
+      sha256 "20d6856233127f92da77021e5fc79ad41c6c715533b433f55849bd48f0598ed3"
     end
   end
 
